@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:chat_with_fun/constants.dart';
 
 class ChatScreen extends StatefulWidget {
   static String id = 'chat_screen';
@@ -28,7 +29,7 @@ class _ChatScreenState extends State<ChatScreen> {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             Container(
-              //decoration: messageContainerDecoration,
+              decoration: kMessageContainerDecoration,
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
@@ -37,7 +38,7 @@ class _ChatScreenState extends State<ChatScreen> {
                       onChanged: (value) {
                         //Do something with the user input.
                       },
-                      // decoration: messageTextFieldDecoration,
+                      decoration: kMessageTextFieldDecoration,
                     ),
                   ),
                   FlatButton(
@@ -46,7 +47,7 @@ class _ChatScreenState extends State<ChatScreen> {
                     },
                     child: Text(
                       'Send',
-                      // style: sendButtonTextStyle,
+                      style: kSendButtonTextStyle,
                     ),
                   ),
                 ],
