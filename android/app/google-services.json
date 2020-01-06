@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "903903052775",
+    "firebase_url": "https://fun-chat-2b8d2.firebaseio.com",
+    "project_id": "fun-chat-2b8d2",
+    "storage_bucket": "fun-chat-2b8d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903903052775:android:5efe09f033dbc78ed97342",
+        "android_client_info": {
+          "package_name": "com.darkshadow.chat_with_fun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "903903052775-refa162rkfdolcm8thn2tgc01sibc59c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvw10oLLMzvRAMQo-toM8ZHIM2v3tzgmQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "903903052775-refa162rkfdolcm8thn2tgc01sibc59c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
